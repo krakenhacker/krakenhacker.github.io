@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/3cbcc35af1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="mystyle.css" rel="stylesheet">
+    <script type="text/javascript" src="scripts.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body id="page-top">
+
+<a onclick="OnClick(0)"  id="scrolltotop" type="button" class="btn btn=secondary btn-square-sm"><i class="	fas fa-long-arrow-alt-up" style="color: #10979794;;font-size: 36px;padding-top: 0.3rem ;"></i></a>
+
+    <!-- START NAVIGATION BAR -->
+<nav class="navbar fixed-top navbar-expand-sm scrolling-navbar" id="navbar">
+  <a class="navbar-brand" id="logo" href="#page-top"><img id="logoimg" src="images/logosmall-removebg-preview.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-bars"></i>
+   </button>
+  <div class="container-fluid">
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto w-100 justify-content-start">
+      <li class="nav-item">
+        <a  class="nav-link" href="#aboutus">Ποιοί Είμαστε</a>
+      </li>
+      <li class="nav-item">
+        <a  class="nav-link" href="#services">Υπηρεσίες</a>
+      </li>
+      <li class="nav-item">
+        <a  class="nav-link" href="#contact">Επικοινωνία</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+    <!-- END OF NAVIGATION BAR -->
+
+    <!--  START OF PAGE -->
+
+    <!-- <div class="firstbanner" id="firstbanner">
+      <div class="row justify-content-md-center">
+        <div class="col-md-9">
+          <img src="images/ajax2.png" alt="ajax-alarm-systems">
+        </div>
+        <div class="imagetexthover"><h3>Το καλύτερο ασύρματο
+          σύστημα συναγερμού της αγοράς</h1><br><p>Στον Άγιαξ, πιστεύουμε ότι οι άνθρωποι δεν πρέπει να ζουν με φόβο στον σημερινό κόσμο. Το συνεχώς εξελισσόμενο σύστημα ασφαλείας μας προσφέρει στους ανθρώπους ηρεμία. Όταν βρίσκεστε υπό την αξιόπιστη προστασία του Ajax, είστε ασφαλείς από κλέφτες, πυρκαγιές ή διαρροές που μπορεί να προκαλέσουν πραγματική ζημιά σε περιουσίες και ανθρώπους.</p>
+          <br>
+          <a href="#contact">
+          <button> 
+            παρε προσφορα τωρα
+          </button>
+        </a>
+        </div>
+      </div>
+    </div> -->
+
+
+
+    <!-- END OF PAGE -->
+
+    <!--  START OF CAROUSEL -->
+<div id="bgcarousel">
+  <div class="carousel w3-animate-top">
+    <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <!-- <li data-target="#demo" data-slide-to="2"></li> -->
+      </ul>
+      <div class="carousel-inner">
+        <!-- <div class="carousel-item active">
+          <img src="images/carousel1.jpg" alt="Night Vision Camera" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>ΚΑΜΕΡΕΣ</h3>
+            <p>Ασύρματα συστήματα νέας γενιάς για κάθε περίσταση ώστε να νιώθετε πιο ασφαλείς από ποτέ.</p>
+          </div>   
+        </div> -->
+        <div class="carousel-item active">
+          <video src="images/intro.mp4" width="1622" height="800" autoplay muted loop></video>
+          <div class="imagetexthover">
+            <h1 style="font-weight:bold; margin: 1rem;">ΝΙΩΣΕ ΑΣΦΑΛΕΙΑ ΣΤΟ ΣΠΙΤΙ ΣΟΥ!</h1>
+            <h5>"Οχύρωσε την οικογένεια σου ή την επιχείρηση σου"</h5>
+          </div>   
+        </div>
+        <div class="carousel-item">
+          <img src="images/ajax2.png" alt="ajax-alarm-systems" width="1100" height="500">
+          <div class="carousel-caption">
+            <div><h3 style="color: black;">Το καλύτερο ασύρματο
+              σύστημα συναγερμού της αγοράς</h3>
+              <a href="#contact">
+              <button> 
+                παρε προσφορα τωρα
+              </button>
+            </a>
+            </div>
+          </div>   
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+</div>
+
+    <!--  END OF CAROUSEL -->
+
+    <!--  START OF ABOUT US -->
+
+    <div class="about-us" id="aboutus">
+      <div class="row justify-content-md-center">
+        <div class="col-md-9 w3-animate-right">
+          <h1>Ποιοί Είμαστε</h1>
+          <hr class="featurette-divider">
+        </div>
+      </div>
+        <div class="row justify-content-md-center">
+          <div class="col-lg-9 w3-animate-bottom">
+            <p>Το κατάστημα μας εδρέυει στο ΛΕΥΚΩΝΑ ΣΕΡΡΩΝ και δραστηροποιείτε απο το 2000 στην παροχή ασφάλειας και στην επίβλεψη κλειστού κυκλώματος και εικόνας. </p>
+            <p>Επιπλέον διαθέτει άδεια λειτουργίας ιδιωτικής επιχείρισης παροχής ασφάλειας απο την Ελληνική Αστυνομία με αρ. αδ. 3015/39/60/1768-δ' η οποία ανανεώνεται αδιαλειπώς όλα αυτά τα χρόνια.</p> 
+            <p>Διαθέτουμε πιστοποιημένο και έμπειρο προσωπικό που θα μελετήσει λεπτομερώς τον χώρο σας για την πλήρη κάλυψη του.</p> 
+            <p>Αναλαμβάνουμαι την εγκατάσταση με υψηλής ποιότητας προϊοντα και τη συντήρησή του συστήματος για τα υπόλοιπα χρόνια.</p>
+            <p>Στο επίκεντρο του ενδιαφέροντος μας βρίσκεται η κατανόηση του φόβου και των ανησυχιών του κάθε πελάτη και η κάλυψη των αναγκών και των επιθυμιών του με την καλύτερη και πιο συμφέρουσα για την περίπτωση του λύση.</p>
+            <p>Η αποστολή μας είναι να προσφέρουμε πάντα τις πιο ποιοτικές, σύγχρονες και τεχνολογικά προηγμένες λύσης.</p>
+          </div>
+        </div>
+      </div>
+
+    <!--  END OF ABOUT US -->
+      <div id="devide"></div>
+    <!--  START OF SERVICES SECTOR -->
+
+    <div class="services" id="services">
+
+      <h1>Υπηρεσίες</h1>
+      <div class="row justify-content-md-center">
+      <div class="col-md-2">
+      <hr class="featurette-divider">
+      </div>
+      </div>
+
+      <div class="row justify-content-md-center">
+        <div class="col-md-3">
+          <i class='fas fa-user-shield' style='font-size:40px;color:#107796;'></i>
+          <h2>Ασφάλεια</h2>
+          <p>Νιώσε ασφαλής εξοπλίζοντας τον χώρο σου με κορυφαία συστήματα για υψιστη ασφάλεια.</p>
+          <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
+        </div>
+        <div class="col-md-3">
+          <i class='fas fa-key' style='font-size:40px;color:#107796;'></i>
+          <h2>Ιδιωτικότητα</h2>
+          <p>Συστήματα περιορισμένης πρόσβασης για το σπιτι και την επιχείρηση σας μέσω εξελιγμένης τεχνολογίας.</p>
+        </div>
+        <div class="col-md-3">
+          <i class='fa fa-mobile-phone' style='font-size:40px;color:#107796;'></i>
+          <h2>Διαχείριση μέσω Smartphone</h2>
+          <p>Πλήρης έλεγχος του συστήματος σας απομακρυσμένα μέσω εφαρμογής στο κινητό σας.</p>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- <div class="row justify-content-md-center">
+        <div class="col-md-3">
+          <i class='fas fa-fingerprint' style='font-size:40px;color:#107796;'></i>
+          <h2>Προσβασιμότητα</h2>
+          <p>Προσβαση στο χώρο σας ακόμα και αν ξεχάσετε το κωδικό πρόσβασης. </p>
+        </div>
+        <div class="col-md-3">
+          <i class='fas fa-microphone' style='font-size:40px;color:#107796;'></i>
+          <h2>Μικρόφωνο</h2>
+          <p>Δυνατότητα ακοής του περιβάλλοντα χώρου για τυχόν ύποπτους ήχους.</p>
+        </div>
+        <div class="col-md-3">
+          <i class='fas fa-check-circle' style='font-size:40px;color:#107796;'></i>
+          <h2>Πιστοποιημένο Προσωπικό</h2>
+          <p>Πιστοποιημένο και έμπειρο προσωπικό θα μελετήσει εξονυχιστικά το χώρο σας για την πλήρη οχύρωση του. </p>
+        </div>
+      </div> -->
+      <!-- /.row -->
+    </div>
+    <!--  END OF SERVICES SECTOR -->
+
+    <!-- START OF SLIDER -->
+    <div class="slider-sector">
+      <h5 style="text-align: center;">Κυροφαίες εταιρίες που συνεργαζόμαστε</h5>
+      <div class="row justify-content-md-center">
+      <div class="col-md-2">
+      <hr class="featurette-divider">
+      </div>
+      </div>
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <a href="https://ajax.systems/" target="_blank"><img src="images/ajax-logo.png" height="100" width="250" alt="" ></a>
+          </div>
+          <div class="slide">
+            <a href="https://www.dahuasecurity.com/ceen" target="_blank"><img src="images/dahua-logo-removebg-preview.png" height="100" width="250" alt="" /></a>
+           </div>
+          <div class="slide">
+            <a href="https://www.hikvision.com/en/" target="_blank"><img src="images/hikvision-logo.jpg" height="100" width="250" alt="" /></a>
+           </div>
+           <div class="slide">
+            <a href="https://www.idshellas.gr/" target="_blank"><img src="images/ids.jpg" height="100" width="250" alt="" /></a>
+           </div>
+           <div class="slide">
+            <a href="https://sigmasec.gr/" target="_blank"><img src="images/sigma-logo.png" height="100" width="250" alt="" /></a>
+           </div>
+           <div class="slide">
+            <a href="https://ajax.systems/" target="_blank"><img src="images/ajax-logo.png" height="100" width="250" alt="" /></a>
+          </div>
+          <div class="slide">
+            <a href="https://www.dahuasecurity.com/ceen" target="_blank"><img src="images/dahua-logo-removebg-preview.png" height="100" width="250" alt="" /></a>
+           </div>
+          <div class="slide">
+            <a href="https://www.hikvision.com/en/" target="_blank"><img src="images/hikvision-logo.jpg" height="100" width="250" alt="" /></a>
+           </div>
+           <div class="slide">
+            <a href="https://www.idshellas.gr/" target="_blank"><img src="images/ids.jpg" height="100" width="250" alt="" /></a>
+           </div>
+           <div class="slide">
+            <a href="https://sigmasec.gr/" target="_blank"><img src="images/sigma-logo.png" height="100" width="250" alt="" /></a>
+           </div>
+           <div class="slide">
+            <a href="https://ajax.systems/" target="_blank"><img src="images/ajax-logo.png" height="100" width="250" alt="" /></a>
+          </div>
+          <div class="slide">
+            <a href="https://www.dahuasecurity.com/ceen" target="_blank"><img src="images/dahua-logo-removebg-preview.png" height="100" width="250" alt="" /></a>
+           </div>
+          <div class="slide">
+            <a href="https://www.hikvision.com/en/" target="_blank"><img src="images/hikvision-logo.jpg" height="100" width="250" alt="" /></a>
+           </div>
+           <div class="slide">
+            <a href="https://www.idshellas.gr/" target="_blank"><img src="images/ids.jpg" height="100" width="250" alt="" /></a>
+           </div>
+          </div>
+        </div>
+      </div>
+    
+    <!-- END OF SLIDER -->
+    
+
+    <!--  START OF EMAILFORM -->
+      <div id="contact">
+    <div class="container">
+      <h3> Ζητήστε Προσφορά </h3>
+      <form class="" action="/sumbit_form.php" id="contact-form" method="GET">
+        <div class="form-group">
+          <label for="txtFirstName">Όνομα:</label>
+          <input type="text" id="txtFirstName" name="firstName" minlenght="4" maxlength="18" placeholder="Όνομα*" required>
+        </div>
+        <!-- <div class="form-group">
+          <label for="txtLastName">Επώνυμο:</label>
+          <input type="text" id="txtLastName" name="lastName" minlenght="4" maxlength="18" placeholder="Επώνυμο*" required>
+        </div> -->
+        <div class="form-group">
+          <label for="txtEmail">E-mail:</label>
+          <input type="email" id="txtEmail" name="email" placeholder="Email*" required>
+        </div>
+        <div class="form-group">
+          <label for="txtTel">Τηλέφωνο:</label>
+          <input type="tel" id="txtTel" name="phoneNumber" placeholder="Τηλέφωνο*" required>
+        </div>
+        <div class="form-group">
+          <label for="txtMessage">Αφήστε το μήνυμα σας:</label>
+          <textarea rows="4" name="comment" id="message" placeholder="Μήνυμα"></textarea>
+        </div>
+        <!-- <label for="select">Επιθυμητές ώρες επικοινωνίας:</label>
+        <div class="form-select">
+        <select class="form-select" name="time" form="contact-form" required>
+          <option value="" disabled selected>επιλογή ώρας επικοινωνίας*</option>
+          <option value="9:00-12:00">9:00-12:00</option>
+          <option value="12:00-14:00">12:00-14:00</option>
+          <option value="18:00-21:00">18:00-21:00</option>
+        </select>
+        </div> -->
+        <br>
+        <div class="form-group">
+          <input type="submit" name="sumbit" value="Αποστολή">
+        </div>
+      </form>
+    </div>
+    </div>
+
+    <!-- END OF EMAILFORM -->
+
+    <div id="devide-footer"></div>
+
+    <!--  START OF FOOTER -->
+
+    <footer>
+      <div class="footercontainer">
+        <div class="row justify-content-md-center">
+          <div class="col-md-4">
+            <img id="footerlogo" src="images/logosmall-removebg-preview.png" alt="footerlogo">
+            <p>Συστήματα ασφαλείας<br> Κάμερες παρακολούθησεις<br>  Κέντρο λήψης σημάτων </p>
+            <a href="https://www.facebook.com/CarStudioMichailidis"><i class="fa fa-facebook-square" style="font-size: 34px;color:#bb9c63;padding: 1rem;"></i></a>
+            <a href="https://www.instagram.com/carstudiomichailidis/"><i class="fa fa-instagram" style="font-size: 34px;color:#bb9c63;padding: 1rem;"></i></a>
+          </div>
+          <div class="col-md-6" id="mapfooter">
+            <h3>Πληροφορίες</h3>
+            <p><i class='fas fa-map-marked-alt' style='font-size:35px;color:#966710;padding: 0.5rem;'></i><a style="color: white;" target="_blank" href="https://www.google.com/maps/place/CAR+STUDIO+MICHAILIDIS/@41.1036522,23.489504,15z/data=!4m5!3m4!1s0x14a9715c0cc6cd17:0x8de10332d34c30c9!8m2!3d41.0994208!4d23.4940805">Κωνσταντίνου Καραμανλή 74, Λευκώνας 621 00</a></p>
+            <p><i class='fa fa-mobile-phone' style='font-size:30px;color:#966710;padding: 0.5rem;'></i><a style="color: white;" href="tel:+30 2321 050680">+30 2321 050680</a></p>
+            <p><i class='fas fa-comment-alt' style='font-size:30px;color:#966710;padding: 0.5rem;'></i>msaudio@otenet.gr</p>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+      <h5 style="margin:0" id="copyright" class="copyright">© <a href="https://www.linkedin.com/in/george-garoufalis-958785213/" style="color:white">GEORGE GAROUFALIS</a> | 2022</h5>
+    </footer>
+
+
+    <!-- END OF FOOTER -->
+
+</body>
+</html>
