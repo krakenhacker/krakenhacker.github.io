@@ -83,6 +83,9 @@ nav{
 #logo{
   padding-left: 0.75rem;
 }
+#logo:hover{
+  background-color: rgba(255,255,255,0);
+}
 nav a{
     font-size: large;
     color: #109796;
