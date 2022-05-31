@@ -5,7 +5,10 @@ html{
 html::-webkit-scrollbar{
     display: none;
 }
-
+.fa-bars {
+    color: #052630de;
+    font-size: 30px;
+}
 #scrolltotop{
     background-color: #e6e6e6;
     border: 1px solid rgba(0, 0, 0, 0.055);
@@ -29,7 +32,7 @@ nav{
 //    background-image: linear-gradient(to right,#052630de, #10779600);
     background-color: #444444;
     overflow: hidden;
-    padding: 0rem !important;
+    padding: 0rem 1rem 0 0 !important;
     transition: 0.5s;
     position: fixed;
     width: 100%;
